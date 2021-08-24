@@ -1,0 +1,10 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /videos                   --> main.main.func1 (5 handlers)
+[GIN-debug] POST   /videos                   --> main.main.func2 (5 handlers)
+[GIN-debug] Listening and serving HTTP on :8000
+ip:::1 - date:[23 Aug 21 22:15 -03] method:GET  path:/videos  status code:401  latency:64.863µs 
+ip:::1 - date:[23 Aug 21 22:15 -03] method:GET  path:/videos  status code:401  latency:6µs 
+ip:::1 - date:[23 Aug 21 22:15 -03] method:GET  path:/videos  status code:200  latency:163.511µs 
